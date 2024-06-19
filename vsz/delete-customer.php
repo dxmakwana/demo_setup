@@ -12,8 +12,6 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
 
     $id = $_GET["id"];
 
-
-
     // Delete query
 
     $sql = "DELETE FROM vsz_customer WHERE id = $id";
