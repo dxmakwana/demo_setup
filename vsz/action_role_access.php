@@ -4,8 +4,6 @@ ob_start();
 session_start();
 require_once("config.php");
 
-
-
 $utype=mysqli_real_escape_string($conn,$_REQUEST['utype']);
 $is_deleted="0";
 $created_at=date('Y-m-d H:i:s');
