@@ -65,3 +65,12 @@ $_SESSION['vsz_custom_error']['err_msg_title'] = $err_msg_title;
 $_SESSION['vsz_custom_error']['err_msg'] = $err_msg;
 header("location:manage-customer.php");
 ?>
+
+
+
+
+
+
+
+
+

@@ -18,8 +18,6 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
 
     $sql = "DELETE FROM vsz_customer WHERE id = $id";
 
-
-
     if(mysqli_query($conn, $sql)) {
         $_SESSION['msg_type'] = "success";
         $_SESSION['err_msg_title'] = "Success";
