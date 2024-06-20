@@ -8,7 +8,6 @@ session_start();
 require_once "config.php";
 
 
-
 if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
 
     $id = $_GET["id"];
